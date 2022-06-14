@@ -3,12 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
       <h3>You laugh you lose!</h3>
       <div id="joke">//joke goes here!</div>
       <button type="button" id="get_joke" class="btn">Next Joke please</button>
+
     </div>
+    <script src='action.js'></script>
+        <script type="text/javascript">
+          function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+          }
+        </script>
+        <input id="music-btn" type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="media/candy.mp3"></audio>
+
   </body>
 </html>
+
+<!---
+VER 1:
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h3>You laugh you lose!</h3>
+      <div id="joke">//joke goes here!</div>
+      <button type="button" id="get_joke" class="btn">Next Joke please</button>
+
+    </div>
+    <script src='action.js'></script>
+        <script type="text/javascript">
+          function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+          }
+        </script>
+        <input id="music-btn" type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="media/candy.mp3"></audio>
+
+  </body>
+</html>
+
+
+
+-->
