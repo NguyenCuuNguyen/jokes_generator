@@ -21,19 +21,26 @@ function displayQuote(quote){
   var quoteText = document.querySelector('#joke');
   quoteText.textContent = quote; //assign the textContent property of the quoteText element to the quote we want to display
 }
+
 var newQuoteButton = document.querySelector('#get_joke');
 newQuoteButton.addEventListener('click', getQuote);
 
-//music
-function play() {
-  var sound = document.getElementById("audio");
-  sound.play();
-}
-var songButton = document.querySelector('.play-btn');
-songButton.addEventListener('click', play);
-
-
 getQuote();
+//
+//
+// var newQuoteButton = document.querySelector('#get_joke');
+// newQuoteButton.addEventListener('click', getQuote);
+//
+// //music
+// function play() {
+//   var sound = document.getElementById("audio");
+//   sound.play();
+// }
+// var songButton = document.querySelector('.play-btn');
+// songButton.addEventListener('click', play);
+//
+//
+// getQuote();
 
 
 /*
